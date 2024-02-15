@@ -26,7 +26,7 @@ const ChatPage = () => {
     <div>
        {/* we use curly braces to write html in react  */}
       
-        {chats.map(chat => <div key = {chat._id} >{chat.chatName}</div>)}
+        {chats.map(chat => <div >{chat.chatName}</div>)}
      
     </div>
   )
